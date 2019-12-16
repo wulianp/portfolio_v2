@@ -8,6 +8,7 @@
 
 .App-header {
   background-color: #282c34;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(248,219,219,1) 0%, rgba(229,248,250,1) 90% );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,4 +20,8 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+root{
+  background-image: 'radial-gradient( circle farthest-corner at 10% 20%,  rgba(248,219,219,1) 0%, rgba(229,248,250,1) 90% )'
 }
